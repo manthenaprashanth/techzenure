@@ -1,0 +1,22 @@
+/**
+ * a program for Divison operator
+ * @author prashanth
+ * @since 27/07/2023
+ */
+public class CharectorType {
+
+	public static void main(String[] args) {
+		char c = 'A';
+		System.out.println(c);
+		
+		c = 65; //implicit typecasting
+		System.out.println(c);
+		
+		c = '\u0041';
+		System.out.println(c);
+		
+		c = '\u0c05';
+		System.out.println(c);
+	}
+
+}
